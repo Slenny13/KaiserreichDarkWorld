@@ -1,0 +1,6 @@
+spriteTypes = {				
+	spriteType = {
+		name = "GFX_portrait_Bela_Kocsis"
+		texturefile = "gfx/leaders/HUN/portrait_Bela_Kocsis.dds"
+	}
+}

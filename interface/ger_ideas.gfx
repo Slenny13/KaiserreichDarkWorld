@@ -1,0 +1,26 @@
+spriteTypes = {				
+	spriteType = {
+		name = "GFX_idea_otto_wels"
+		texturefile = "gfx/interface/ideas/idea_otto_wels.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_nazi_in_ger"
+		texturefile = "gfx/interface/ideas/idea_nazi_in_ger.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_democratic_in_ger"
+		texturefile = "gfx/interface/ideas/idea_democratic_in_ger.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_paris_peace_ger"
+		texturefile = "gfx/interface/ideas/idea_paris_peace_ger.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_peace"
+		texturefile = "gfx/interface/ideas/idea_peace.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wermahr_naz_dec"
+		texturefile = "gfx/interface/ideas/idea_wermahr.dds"
+	}
+}

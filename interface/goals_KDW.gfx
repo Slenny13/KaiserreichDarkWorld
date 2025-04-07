@@ -1,0 +1,161 @@
+spriteTypes = {	
+    #### Generic
+	SpriteType = {
+		name = "GFX_goal_army_1"
+		texturefile = "gfx/interface/goals/goal_army_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_army_2"
+		texturefile = "gfx/interface/goals/goal_army_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_army_3"
+		texturefile = "gfx/interface/goals/goal_army_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_army_4"
+		texturefile = "gfx/interface/goals/goal_army_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_army_5"
+		texturefile = "gfx/interface/goals/goal_army_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_communism_mod"
+		texturefile = "gfx/interface/goals/goal_communism_mod.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nexuia_mod"
+		texturefile = "gfx/interface/goals/goal_nexuia_mod.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_facsicm_mod"
+		texturefile = "gfx/interface/goals/goal_facsicm_mod.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nexu_mod"
+		texturefile = "gfx/interface/goals/goal_nexu_mod.dds"
+	}
+	
+    #### Germany
+	SpriteType = {
+		name = "GFX_goal_communism_revolut"
+		texturefile = "gfx/interface/goals/goal_communism_revolut.dds"
+	} 
+	SpriteType = {
+		name = "GFX_goal_ger_kaiser_legacy"
+		texturefile = "gfx/interface/goals/goal_ger_kaiser_legacy.dds"
+	} 
+	SpriteType = {
+		name = "GFX_goal_ger_victory_conservatism"
+		texturefile = "gfx/interface/goals/goal_ger_victory_conservatism.dds"
+	} 
+	SpriteType = {
+		name = "GFX_goal_ger_attacl_ukrain"
+		texturefile = "gfx/interface/goals/goal_ger_attacl_ukrain.dds"
+	} 
+	SpriteType = {
+		name = "GFX_goal_ger_victory_nazism"
+		texturefile = "gfx/interface/goals/goal_ger_victory_nazism.dds"
+	} 
+	SpriteType = {
+		name = "GFX_goal_ger_victory_socialism"
+		texturefile = "gfx/interface/goals/goal_ger_victory_socialism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ger_revolut_bavar"
+		texturefile = "gfx/interface/goals/goal_ger_revolut_bavar.dds"
+	} 
+	SpriteType = {
+		name = "GFX_ger_political_games"
+		texturefile = "gfx/interface/goals/goal_ger_political_games.dds"
+	} 
+	SpriteType = {
+		name = "GFX_ger_assassination_hitler"
+		texturefile = "gfx/interface/goals/goal_ger_assassination_hitler.dds"
+	}
+	SpriteType = {
+		name = "GFX_ger_bavar_communism"
+		texturefile = "gfx/interface/goals/goal_ger_bavar_communism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ger_economic_power"
+		texturefile = "gfx/interface/goals/goal_ger_economic_power.dds"
+	}
+		SpriteType = {
+		name = "GFX_ger_military_problems"
+		texturefile = "gfx/interface/goals/goal_ger_military_problems.dds"
+	}
+		SpriteType = {
+		name = "GFX_ger_prohibition_nazism"
+		texturefile = "gfx/interface/goals/goal_ger_prohibition_nazism.dds"
+	}
+	
+	#### UK
+		SpriteType = {
+		name = "GFX_goal_new_uk_fascism"
+		texturefile = "gfx/interface/goals/goal_new_uk_fascism.dds"
+	}
+	#### NUK
+	SpriteType = {
+		name = "GFX_goal_nuk_democratic"
+		texturefile = "gfx/interface/goals/goal_nuk_democratic.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_communism"
+		texturefile = "gfx/interface/goals/goal_nuk_communism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_fascism"
+		texturefile = "gfx/interface/goals/goal_nuk_fascism.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_army"
+		texturefile = "gfx/interface/goals/goal_nuk_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_mama_rodina"
+		texturefile = "gfx/interface/goals/goal_nuk_mama_rodina.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_flag"
+		texturefile = "gfx/interface/goals/goal_nuk_flag.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_fascism_constitution"
+		texturefile = "gfx/interface/goals/goal_nuk_fascism_constitution.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_fascism_economics"
+		texturefile = "gfx/interface/goals/goal_nuk_fascism_economics.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_fascism_expansion"
+		texturefile = "gfx/interface/goals/goal_nuk_fascism_expansion.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_fascism_yes"
+		texturefile = "gfx/interface/goals/goal_nuk_fascism_yes.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_orthodoxy"
+		texturefile = "gfx/interface/goals/goal_nuk_orthodoxy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_ukraine_contract"
+		texturefile = "gfx/interface/goals/goal_nuk_ukraine_contract.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_italian"
+		texturefile = "gfx/interface/goals/goal_nuk_italian.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_bandera"
+		texturefile = "gfx/interface/goals/goal_nuk_bandera.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuk_anticommunism"
+		texturefile = "gfx/interface/goals/goal_nuk_anticommunism.dds"
+	}
+	
+}

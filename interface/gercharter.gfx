@@ -1,0 +1,6 @@
+spriteTypes = {				
+	spriteType = {
+		name = "GFX_portrait_wilhelm_ii"
+		texturefile = "gfx/leaders/GER/portrait_wilhelm_ii.dds"
+	}
+}

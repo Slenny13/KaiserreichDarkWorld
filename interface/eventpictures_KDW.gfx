@@ -1,0 +1,11 @@
+spriteTypes = {				
+	spriteType = {
+		name = "GFX_report_event_ger_bavar_revolut"
+		texturefile = "gfx/event_pictures/report_event_ger_bavar_revolut.dds"
+	}
+	spriteType = {
+		name = "GFX_fun"
+		texturefile = "gfx/event_pictures/report_fun.dds"
+	}
+
+}

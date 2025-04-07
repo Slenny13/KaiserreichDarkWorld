@@ -1,0 +1,22 @@
+spriteTypes = {				
+	spriteType = {
+		name = "GFX_Portrait_NUK_Grigory_Petrovsky"
+		texturefile = "gfx/leaders/NUK/Portrait_NUK_Grigory_Petrovsky.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NUK_Friedrich_Kovalenko"
+		texturefile = "gfx/leaders/NUK/Portrait_NUK_Friedrich_Kovalenko.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Mehmet_Giray"
+		texturefile = "gfx/leaders/CRI/portrait_Mehmet_Giray.dds"
+	}
+	spriteType = {
+		name = "GFX_ukr_portrait_Kost_Levytsky"
+		texturefile = "gfx/leaders/UKR/portrait_Kost_Levytsky.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_NUK_Stepan_Bandera"
+		texturefile = "gfx/leaders/NUK/Portrait_NUK_Stepan_Bandera.dds"
+	}
+}

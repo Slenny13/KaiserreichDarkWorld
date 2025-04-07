@@ -1,0 +1,7 @@
+spriteTypes = {				
+  SpriteType = {
+		name = "GFX_nauthorit_group
+		texturefile = "gfx/interface/ideologies/nauthorit_group.dds"
+	}
+
+}

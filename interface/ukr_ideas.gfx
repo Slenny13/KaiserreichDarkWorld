@@ -1,0 +1,30 @@
+spriteTypes = {				
+	spriteType = {
+		name = "GFX_idea_ukr2"
+		texturefile = "gfx/interface/ideas/idea_ukr2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nuk_army_1"
+		texturefile = "gfx/interface/ideas/idea_nuk_army_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nuk_army_2"
+		texturefile = "gfx/interface/ideas/idea_nuk_army_2.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_nuk_ecom_1"
+		texturefile = "gfx/interface/ideas/idea_nuk_ecom_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nuk_ecom_2"
+		texturefile = "gfx/interface/ideas/idea_nuk_ecom_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nuk_ecom_3"
+		texturefile = "gfx/interface/ideas/idea_nuk_ecom_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nuk_ecom_4"
+		texturefile = "gfx/interface/ideas/idea_nuk_ecom_4.dds"
+	}	
+}

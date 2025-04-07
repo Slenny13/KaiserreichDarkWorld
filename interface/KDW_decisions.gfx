@@ -1,0 +1,15 @@
+spriteTypes = {	
+
+	### categories
+	
+	spriteType = {
+		name = "GFX_decision_category_political_games"
+		texturefile = "gfx/interface/decisions/decision_category_political_games.dds"
+	}
+	
+	### decisions
+	 
+	spriteType = {
+		name = "GFX_decision_ger_ned_gain"
+		texturefile = "gfx/interface/decisions/decision_ger_ned_gain.dds"
+	}

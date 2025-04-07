@@ -1,0 +1,33 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_super_event_bg"
+        texturefile = "gfx/interface/super_event_background.dds"
+    }
+}
+
+guiTypes = {
+    windowType = {
+        name = "super_event_window"
+        position = { x = 100 y = 100 }
+        size = { width = 500 height = 300 }
+        background = "GFX_super_event_bg"
+        
+        instantTextBoxType = {
+            name = "event_title"
+            position = { x = 50 y = 50 }
+            font = "vic_18"
+            text = "super_event.a"
+        }
+
+        buttonType = {
+            name = "event_button"
+            position = { x = 200 y = 200 }
+            sprite = "GFX_button_normal"
+            clicksound = "click"
+            effect = {
+                # Действие при нажатии кнопки
+                trigger_event = { id = super_event.1 }
+            }
+        }
+    }
+}
