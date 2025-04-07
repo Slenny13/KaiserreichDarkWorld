@@ -1,0 +1,39 @@
+﻿capital = 91
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	tech_trucks = 1
+	gw_artillery = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+#### Персонажи
+recruit_character = NUK_Friedrich_Kovalenko
+
+add_ideas = {
+ukr2
+nuk_army_1
+nuk_ecom_1
+}
+
+#### Другое
+set_popularities = {
+	democratic = 100
+}
+
