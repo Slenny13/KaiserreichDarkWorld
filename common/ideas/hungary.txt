@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		hun_king = {
+
+			removal_cost = -1
+			
+			allowed = {
+			}
+			
+			picture = GFX_idea_hun_king
+			
+			modifier = {
+		    }
+	    }
+
+    }  
+}

@@ -1,0 +1,97 @@
+ideas = {
+
+	country = {
+		otto_wels = {
+
+			removal_cost = -1
+			
+			allowed = {
+			
+			}
+			
+			picture = GFX_idea_otto_wels
+			
+			modifier = {
+		    democratic_drift = 0.15
+		}
+
+	}
+	nazi_in_ger = {
+
+			removal_cost = -1
+			
+			allowed = {
+			
+			}
+			
+			picture = GFX_idea_nazi_in_ger
+			
+			modifier = {
+		    fascism_drift = 0.20
+			production_speed_buildings_factor = -0.1 
+			conversion_cost_civ_to_mil_factor = -0.25
+			max_command_power = 100
+			stability_factor = -0.10
+			army_attack_factor = 0.15
+		}
+
+	}
+	democratic_in_ger = {
+
+			removal_cost = -1
+			
+			allowed = {
+			
+			}
+			
+			picture = GFX_idea_democratic_in_ger
+			
+			modifier = {
+		    democratic_drift = 0.25
+			political_power_gain = 0.5
+			stability_factor = 0.15
+			democratic_acceptance = 25
+			army_core_defence_factor = 0.25
+ 		}
+
+	}
+	wermahr_naz_dec = {
+
+			removal_cost = -1
+			
+			allowed = {
+			
+			}
+			
+			picture = idea_wermahr_naz_dec
+			
+			modifier = {
+		    fascism_drift = 0.03
+			democratic_drift = 0.04
+			stability_factor = -0.05
+			army_attack_factor = 0.15
+			army_defence_factor = 0.0
+			army_morale = 0.50
+			army_org = 15
+		}
+
+	}
+	paris_peace_ger = {
+
+			removal_cost = -1
+			
+			allowed = {
+			
+			}
+			
+			picture = idea_paris_peace_ger
+			
+			modifier = {
+		    production_speed_buildings_factor = 0.5 
+			consumer_goods_factor = -0.5
+			repair_speed_arms_factory_factor = 0.5 
+		}
+
+	}
+  }  
+}

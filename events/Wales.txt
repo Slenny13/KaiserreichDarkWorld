@@ -1,0 +1,30 @@
+﻿add_namespace = wales
+
+country_event = {
+	id = wales.1
+	title = wales.1.t
+	desc = wales.1.d
+	picture = GFX_report_event_pierre_laval
+	
+	fire_only_once = no
+
+	is_triggered_only = yes
+
+ 	mean_time_to_happen = { days = 2 }
+
+	option = {
+		name = wales.1.a
+	
+	    ai_chance = { base = 100 }
+		
+		country_event = { days = 3 id = uk.1 }
+	
+	}
+		option = {
+		name = wales.1.b
+		
+		ai_chance = { base = 0 }
+
+		
+	}
+}

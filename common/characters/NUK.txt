@@ -1,0 +1,51 @@
+characters={
+
+	NUK_Friedrich_Kovalenko={
+		name="NUK_Friedrich_Kovalenko"
+		portraits={
+			civilian={
+				large=GFX_Portrait_NUK_Friedrich_Kovalenko
+			}
+		}
+
+		country_leader={
+			ideology=socialism
+			traits = {
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NUK_Grigory_Petrovsky={
+		name="NUK_Grigory_Petrovsky"
+		portraits={
+			civilian={
+				large=GFX_Portrait_NUK_Grigory_Petrovsky
+			}
+		}
+
+		country_leader={
+			ideology=national_communism
+			traits = {
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NUK_Stepan_Bandera={
+		name="NUK_Stepan_Bandera"
+		portraits={
+			civilian={
+				large=GFX_Portrait_NUK_Stepan_Bandera
+			}
+		}
+
+		country_leader={
+			ideology=nazism
+			traits = {
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+ }

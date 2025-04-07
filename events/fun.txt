@@ -1,0 +1,43 @@
+﻿add_namespace = fun
+
+country_event = {
+	id = fun.1
+	title = fun.1.t
+	desc = fun.1.d
+	picture = GFX_fun
+	
+	fire_only_once = no
+
+	is_triggered_only = yes
+
+ 	mean_time_to_happen = { days = 2 }
+
+	option = {
+		name = fun.1.a
+	
+	    set_politics = {
+    ruling_party = nauthorit
+    elections_allowed = no
+    last_election = "1945.12.17"
+    election_frequency = 48
+}
+	
+	}
+}
+country_event = {
+    id = fun.2
+    title = fun.2.t
+    desc = fun.2.d
+    picture = GFX_report_event_generic_political
+    is_triggered_only = yes
+	
+		    immediate = {
+        every_country = {
+            set_variable = { political_influence = 0 }
+        }
+    }
+    option = {
+        name = "fun.2.a"
+
+   }
+}

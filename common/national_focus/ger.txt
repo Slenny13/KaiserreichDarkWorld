@@ -1,0 +1,331 @@
+focus_tree = {
+	id = germany
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	focus = {
+		id = GER_communism_revolut
+		icon = GFX_goal_communism_revolut
+		cost = 10.00
+		mutually_exclusive = {
+			focus = GER_kaider_legacy
+			focus = GER_victory_socialism
+			focus = GER_victory_conservatism
+			focus = GER_victory_nazism
+		}
+		x = 2
+		y = 1
+		completion_reward = {
+		add_political_power = 150
+		}
+
+
+	}
+	focus = {
+		id = GER_victory_socialism
+		icon = GFX_goal_ger_victory_socialism
+		cost = 10.00
+		mutually_exclusive = {
+			focus = GER_kaider_legacy
+			focus = GER_communism_revolut
+			focus = GER_victory_conservatism
+			focus = GER_victory_nazism
+		}
+		x = 9
+		y = 1
+		completion_reward = {
+		add_political_power = 150
+		}
+
+	}
+	focus = {
+		id = GER_kaider_legacy
+		icon = GFX_goal_ger_kaiser_legacy
+		cost = 10.00
+		mutually_exclusive = {
+			focus = GER_victory_socialism
+			focus = GER_communism_revolut
+			focus = GER_victory_conservatism
+			focus = GER_victory_nazism
+		}
+		x = 16
+		y = 1
+		completion_reward = {
+		add_popularity = {
+        ideology = neutrality 
+        popularity = 0.10
+        }
+		add_political_power = 150
+		add_stability = -0.10
+		}
+
+	}
+	focus = {
+		id = GER_victory_conservatism
+		icon = GFX_goal_ger_victory_conservatism
+		cost = 10.00
+		mutually_exclusive = {
+			focus = GER_victory_socialism
+			focus = GER_kaider_legacy
+			focus = GER_communism_revolut
+			focus = GER_victory_nazism
+		}
+		x = 23
+		y = 1
+		completion_reward = {
+		add_political_power = 150
+		}
+
+
+	}
+	focus = {
+		id = GER_victory_nazism
+		icon = GFX_goal_ger_victory_nazism
+		cost = 10.00
+		mutually_exclusive = {
+			focus = GER_victory_conservatism
+			focus = GER_kaider_legacy
+			focus = GER_victory_socialism
+			focus = GER_communism_revolut
+		}
+		x = 30
+		y = 1
+		completion_reward = {
+		add_political_power = 150
+		}
+
+
+	}
+	focus = {
+		id = GER_plant_construction
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = GER_kaider_legacy
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = GER_military_plant_construction
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = GER_plant_construction
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = GER_political_games
+		icon = GFX_ger_political_games
+		cost = 10.00
+		prerequisite = {
+			focus = GER_kaider_legacy
+		}
+		x = 16
+		y = 2
+		completion_reward = {
+		country_event = germany_influence.1
+		}
+
+	}
+	focus = {
+		id = GER_road_construction
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = GER_plant_construction
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = GER_economic_germany
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00
+		prerequisite = {
+			focus = GER_military_plant_construction
+			focus = GER_road_construction
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = GER_factory_upgrate
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = GER_economic_germany
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = GER_bunkers_build
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = GER_economic_germany
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = GER_technology_wars
+		icon = GFX_goal_continuous_research
+		cost = 10.00
+		prerequisite = {
+			focus = GER_germany_army
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = GER_germany_army
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = GER_kaider_legacy
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = GER_army_training 
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = GER_germany_army
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = GER_revolut_bavar
+		icon = GFX_goal_ger_revolut_bavar
+		cost = 10.00
+		available = {
+		has_war_with = BAY
+		}
+		prerequisite = {
+			focus = GER_technology_wars
+			focus = GER_army_training
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = GER_assassination_hitler
+		icon = GFX_ger_assassination_hitler
+		cost = 10.00
+		prerequisite = {
+			focus = GER_revolut_bavar
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = GER_bavar_communism
+		icon = GFX_ger_bavar_communism
+		cost = 10.00
+		prerequisite = {
+			focus = GER_revolut_bavar
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = GER_economic_power
+		icon = GFX_ger_economic_power
+		cost = 10.00
+		prerequisite = {
+			focus = GER_factory_upgrate
+		}
+		prerequisite = {
+			focus = GER_bunkers_build
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = GER_military_problems
+		icon = GFX_ger_military_problems
+		cost = 10.00
+		prerequisite = {
+			focus = GER_assassination_hitler
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = GER_prohibition_nazism
+		icon = GFX_ger_prohibition_nazism
+		cost = 10.00
+		prerequisite = {
+			focus = GER_assassination_hitler
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = GER_aggressive_tactics
+		icon = GFX_ger_prohibition_nazism1
+		cost = 10.00
+		mutually_exclusive = {
+		focus = GER_passing_tactics
+		}
+		prerequisite = {
+			focus = GER_prohibition_nazism
+		}
+		prerequisite = {
+			focus = GER_military_problems
+		}
+		prerequisite = {
+			focus = GER_economic_power
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = GER_passing_tactics
+		icon = GFX_ger_prohibition_nazism2
+		cost = 10.00
+		mutually_exclusive = {
+		focus = GER_aggressive_tactics
+		}
+		prerequisite = {
+			focus = GER_prohibition_nazism
+		}
+		prerequisite = {
+			focus = GER_military_problems
+		}
+		prerequisite = {
+			focus = GER_economic_power
+		}
+		x = 18
+		y = 7
+
+	}
+}

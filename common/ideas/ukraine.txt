@@ -1,0 +1,108 @@
+ideas = {
+	country = {
+		ukr2 = {
+
+			removal_cost = -1
+			
+			allowed = {
+			}
+			
+			picture = GFX_idea_ukr2
+			
+			modifier = {
+		    stability_factor = -0.15
+		    }
+	    }
+		nuk_army_1 = {
+
+			removal_cost = -1
+			
+			allowed = {
+			}
+			
+			picture = GFX_idea_nuk_army_1
+			
+			modifier = {
+			army_attack_factor = 0.10
+			army_defence_factor = 0.10
+		    stability_factor = 0.05
+		    }
+	    }
+		nuk_army_2 = {
+
+			removal_cost = -1
+			
+			allowed = {
+			}
+			
+			picture = GFX_idea_nuk_army_2
+			
+			modifier = {
+			army_attack_factor = 0.15
+			army_defence_factor = 0.15
+			army_org = 15
+		    stability_factor = 0.07
+		    }
+	    }
+		nuk_ecom_1 = {
+
+			removal_cost = -1
+			
+			allowed = {
+			}
+			
+			picture = GFX_idea_nuk_ecom_1
+			
+			modifier = {
+		    production_speed_buildings_factor = -0.5
+            consumer_goods_expected_value = 0.5
+            stability_factor = -0.15			
+		    }
+	    }
+		nuk_ecom_2 = {
+
+			removal_cost = -1
+			
+			allowed = {
+			}
+			
+			picture = GFX_idea_nuk_ecom_2
+			
+			modifier = {
+		    production_speed_buildings_factor = -0.2
+            consumer_goods_expected_value = 0.3
+            stability_factor = -0.10			
+		    }
+	    }
+		nuk_ecom_3 = {
+
+			removal_cost = -1
+			
+			allowed = {
+			}
+			
+			picture = GFX_idea_nuk_ecom_3
+			
+			modifier = {
+		    production_speed_buildings_factor = 0.2
+            consumer_goods_expected_value = -0.1
+            stability_factor = 0.05			
+		    }
+	    }
+		nuk_ecom_4 = {
+
+			removal_cost = -1
+			
+			allowed = {
+			}
+			
+			picture = GFX_idea_nuk_ecom_4
+			
+			modifier = {
+		    production_speed_buildings_factor = 0.5
+            consumer_goods_expected_value = -0.5
+            stability_factor = 0.25			
+		    }
+	    }
+    }  
+}

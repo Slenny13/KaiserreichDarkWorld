@@ -1,0 +1,23 @@
+add_namespace = super_event
+
+country_event = {
+    id = super_event.1
+    title = "super_event.1.t"
+    desc = "super_event.1.d"
+    picture = GFX_evt_news
+
+    trigger = {
+        # Условия для запуска ивента
+    }
+
+    immediate = {
+        open_gui = super_event_window # Открыть GUI
+    }
+
+    option = {
+        name = "super_event.1.a"
+        # Действия при выборе опции
+    }
+}
+
+}

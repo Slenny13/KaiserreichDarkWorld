@@ -1,0 +1,65 @@
+GER_political_influence_category = { # В какой категории решения
+   GER_ned_gain_political_influence = { # Решение
+    id = GER_ned_gain_political_influence
+    name = GER_NED_gain_political_influence_name
+	desc = GER_NED_gain_political_influence_desc
+	
+    icon = GFX_decision_ger_ned_gain
+	
+    cost = 25
+	
+    available = { always = yes }
+	
+	days_remove = 30
+	
+    remove_effect = {
+	add_to_variable = { GER_NED_political_influence = 5 }   
+       }
+	   
+	highlight_effect = {
+        add_to_variable = { GER_NED_political_influence = 10 }
+    }
+
+    custom_tooltip = gain_GER_ned_political_influence_tooltip
+   }
+GER_bel_gain_political_influence = {
+    id = GER_bel_gain_political_influence
+    name = GER_BEL_gain_political_influence_name
+	desc = GER_BEL_gain_political_influence_desc
+	
+    icon = GFX_decision_ger_bel_gain
+	
+    cost = 25    
+	
+	available = { always = yes }
+
+	days_remove = 30
+	
+    remove_effect = {
+	add_to_variable = { GER_BEL_political_influence = 5 }  
+    }
+   }
+   GER_aus_gain_political_influence = {
+    id = GER_aus_gain_political_influence
+    name = GER_AUS_gain_political_influence_name
+	desc = GER_AUS_gain_political_influence_desc
+	
+    icon = GFX_decision_ger_aus_gain
+	
+    cost = 25  
+	
+	available = { always = yes }
+
+	days_remove = 30
+	
+    remove_effect = {
+	add_to_variable = { GER_AUS_political_influence = 5 }  
+    }
+   }
+}
+  
+
+
+    
+	
+

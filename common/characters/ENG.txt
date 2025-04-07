@@ -1,0 +1,19 @@
+characters={
+
+	ENG_Arthur_Blackwood={
+		name="ENG_Arthur_Blackwood"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Arthur_Blackwood
+			}
+		}
+
+		country_leader={
+			ideology=new_authoritarianism_ENG
+			traits = {
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+ }

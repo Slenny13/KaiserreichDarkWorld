@@ -1,0 +1,19 @@
+characters={
+
+	CRI_Mehmet_Girayi={
+		name="CRI_Mehmet_Giray"
+		portraits={
+			civilian={
+				large=GFX_portrait_Mehmet_Giray
+			}
+		}
+
+		country_leader={
+			ideology=despotism
+			traits = {
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+ }

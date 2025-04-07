@@ -1,0 +1,43 @@
+﻿add_namespace = ukr
+add_namespace = nuk
+
+country_event = {
+	id = nuk.1
+	title = nuk.1.t
+	desc = nuk.1.d
+	picture = GFX_report_event_pierre_laval
+	
+	fire_only_once = no
+
+	is_triggered_only = yes
+
+ 	mean_time_to_happen = { days = 2 }
+
+	option = {
+		name = nuk.1.a
+	
+	    ai_chance = { base = 100 }
+		
+            complete_national_focus = focus_nuk_victory_dem
+			
+	
+	}
+		option = {
+		name = nuk.1.b
+		
+		ai_chance = { base = 0 }
+		
+            complete_national_focus = focus_nuk_victory_fas
+
+		
+	}		
+	option = {
+		name = nuk.1.c
+		
+		ai_chance = { base = 0 }
+		
+            complete_national_focus = focus_nuk_victory_com
+			
+		
+	}
+}
