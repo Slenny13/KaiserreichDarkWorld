@@ -1,0 +1,9 @@
+﻿l_russian:
+ GER_political_influence_category: "Политические Игры"
+ GER_political_influence_category_desc: "Вы можете повлиять на разные страны и усилить сво1 влияние в мире. Все покланятся вам никто не будет свободен никто не будет мешать... [?GER_NED_political_influence]% влияния на Нидерланды.     [?GER_BEL_political_influence]% влияния на Бельгию.        [?GER_AUS_political_influence]% влияния на Австрию."
+ GER_NED_gain_political_influence_name: "Повлиять на Нидерланды"
+ GER_NED_gain_political_influence_desc: "Вы получите 5 влияния"
+ germany_influence.1.t: "Политическая Игра"
+ germany_influence.1.d: "Это механика которая даёт вам повлеять на мир или же на определёные государства..."
+ germany_influence.1.a: "Да будет Кайзер!" 
+ gain_GER_ned_political_influence_tooltip: "Текущее влияние на Нидерланды: [?GER_NED_political_influence]"
